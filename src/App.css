@@ -1,0 +1,75 @@
+body {
+  position: relative;
+}
+
+.cart {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.image-gallery-slide img {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 500px;
+}
+
+.color {
+  background-color: #ff7d1b;
+  padding: 5px 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+
+.bgClass {
+  background-color: #f7f8fd;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.but {
+  padding: 10px;
+  font-size: 30px;
+  border: none;
+  color: #ff8025;
+  background-color: transparent;
+}
+
+.bgClass p {
+  font-size: 30px;
+}
+
+
+.Cart {
+  width: 400px;
+  background-color: white;
+  position: absolute;
+  top: 10%;
+  right: 2%;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cart-icon{
+  position: relative;
+}
+.cart-icon .count{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(255, 176, 112);
+  font-size: 15px;
+  text-align: center;
+  top: -10px;
+
+}
